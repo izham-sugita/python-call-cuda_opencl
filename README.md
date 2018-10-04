@@ -11,6 +11,8 @@ To use the examples, just compile the cpp codes to .so file.
 
 
 $g++ -fPIC -shared helloworld.cpp -o helloworld.so
+
+
 $g++ -fPIC -shared -I /usr/where/yourBoost.Computer list_devices.cpp -o list_devices -lOpenCL
 
 
